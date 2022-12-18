@@ -1,0 +1,65 @@
+<HTML>
+    <HEAD>
+    <META http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>chang's site</title>    
+    <link rel="stylesheet" href="./style.css">     
+    <style>
+    #content1
+      {
+      float:left;
+      width:50%;
+      }
+    </style>
+    
+    </HEAD>
+    <BODY>    
+        <h3>미분양</h3>                  
+        <div id="content1">
+            
+            <fieldset class="sale">                
+                <FORM METHOD="post"  ACTION="onsale_sgg.php">          
+                    <p class="large">(1)시도별 미분양현황</p>
+                    <!-- <p class="medium">광역시도: <INPUT TYPE ="text" value="서울" NAME="광역시도" size="11"> -->
+                        광역시도:<select name="광역시도">
+                            <option value =""></option>
+                            <option value ="서울">서울</option>
+                            <option value ="경기">경기</option>
+                            <option value ="인천">인천</option>                               
+                            <option value ="부산">부산</option>                               
+                            <option value ="대전">대전</option>                               
+                            <option value ="대구">대구</option>                               
+                            <option value ="광주">광주</option>                               
+                            <option value ="울산">울산</option>                               
+                            <option value ="세종">세종</option>                               
+                            <option value ="강원">강원</option>                               
+                            <option value ="충북">충북</option>                               
+                            <option value ="충남">충남</option>                               
+                            <option value ="전북">전북</option>                               
+                            <option value ="전남">전남</option>                               
+                            <option value ="경북">경북</option>                               
+                            <option value ="경남">경남</option>                               
+                            <option value ="제주">제주</option>                               
+                        </select>
+                        시자치구: <INPUT TYPE ="text" NAME="시자치구" size="11"><br>
+                        조 회 월: <INPUT TYPE ="date" id="sdate" NAME="조회월1">
+                            <script>document.getElementById('sdate').valueAsDate = new Date(2022,9,1);</script>
+                            <!-- <script>document.getElementById('now_date').valueAsDate = new Date();</script>                         -->
+                        <button type="submit">검색</button>                          
+                    </p>
+                </FORM>
+            </fieldset>
+
+    
+    <p font size=2.5><a href='./index.html'><h4>[홈으로]</h4></a></p>       
+  
+    <!-- <a href='sale_sma.php'> (2.1)아파트 매매실거래_수도권 </a> <br><br>
+    <a href='sale_big6.php'> (2.2)아파트 매매실거래_광역시 </a> <br><br>
+    <a href='sale_dodo.php'> (2.3)아파트 매매실거래_지방도시 </a> <br><br> -->
+    <!-- <a href='rent_sma.php'> (3)아파트 전세실거래 </a> <br><br>
+    <a href='ot_sale.php'> (4)오피스텔 매매실거래 </a> <br><br>
+    <a href='ot_rent.php'> (5)오피스텔 전세실거래 </a> <br><br>
+    <a href='villa_sale.php'> (6)빌라 매매실거래 </a> <br><br>
+    <a href='villa_rent.php'> (7)빌라 전세실거래 </a> <br><br> -->
+       
+    </BODY>
+    </HTML>
